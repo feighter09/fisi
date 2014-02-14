@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+.school {
+    float: left;
+    margin-left: 20px;
+}

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Fisi::Application.config.secret_key_base = ENV['SECRET_TOKEN']
+Fisi::Application.config.secret_key_base = 'c048907c484c68555155bab08605c6d74407a965bfd532a8f4486df67107bd9f59a7f64e0f98761d0b8042bd38bfca4df5c033225905007701482424efa62f44'
