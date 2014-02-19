@@ -1,4 +1,4 @@
-/*
+
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -12,7 +12,41 @@
  *= require_tree .
  */
 
+body, .container {
+  min-width: 420px !important;
+}
+
+#schools {
+  width: 800px;
+  /*float: none !important;*/
+}
+
 .school {
-    float: left;
-    margin-left: 20px;
+  float: left;
+  margin-left: 20px;
+}
+
+#progress {
+  width: 170px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  #schools {
+    /*width: 800px;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    min-width: 420px;
+  }
+  #schools {
+    width: 80%;
+    min-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
