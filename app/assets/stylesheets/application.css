@@ -50,7 +50,7 @@ body, .container {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
   body {
     min-width: 420px;
   }
