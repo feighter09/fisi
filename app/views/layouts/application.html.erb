@@ -7,20 +7,20 @@
   <%= csrf_meta_tags %>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" href="assets/favicon.png">
+  <link rel="shortcut icon" href="/assets/favicon.png">
 
   <!-- Bootstrap core CSS -->
-  <link href="assets/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/font-awesome.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="assets/main.css" rel="stylesheet">
+  <link href="/assets/main.css" rel="stylesheet">
   
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
   
   <!-- Just for debugging purposes. Don't actually copy this line! -->
-  <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="../../docs-/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -30,13 +30,28 @@
 </head>
   <body>
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <footer class="container">
+      <div class="row w centered">
+        <div class="col-lg-6 col-lg-offset-3" id="contact">
+          <p>Come ship with us!</p><br><br>
+          <p>Want to know what we're about?</p>
+          <p>Feel free to message either
+            <a href="https://www.facebook.com/afeight">Austin Feight</a>
+            <a href="https://www.facebook.com/cole.kushner">Cole Kushner</a>
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/bootstrap.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
 
     <script>
       $('.tooltip-demo').tooltip({
@@ -47,9 +62,9 @@
 
     <!--BACKSTRETCH-->
     <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
-    <script type="text/javascript" src="assets/jquery.backstretch.min.js"></script>
+    <script type="text/javascript" src="/assets/jquery.backstretch.min.js"></script>
     <script>
-        $.backstretch("assets/bg.jpg", {speed: 500});
+        $.backstretch("/assets/bg.jpg", {speed: 500});
     </script>
   </body>
 </html>
