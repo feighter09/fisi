@@ -4,6 +4,6 @@ class HacksController < ApplicationController
   end
 
   def upload
-    
+    @ship = Ships.new
   end
 end

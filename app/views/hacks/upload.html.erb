@@ -1,2 +1,6 @@
-<h1>Hacks#upload</h1>
-<p>Find me in app/views/hacks/upload.html.erb</p>
+<%= form_for @ship, :url => hacks_upload_path, :html => { :multipart => true } do |form| %>
+  Title: <%= form.text_field :title %><br>
+  Your name: <%= form.text_field :who %><br>
+  Description: <%= form.text_area :description, :size => "30x10" %><br>
+  Picture: <%= form.file_field :picture %>
+<% end %>
