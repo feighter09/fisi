@@ -1,1 +1,1 @@
-web: bundle exec ruby site.rb -p 80
+web: sudo bundle exec ruby site.rb -p 80
