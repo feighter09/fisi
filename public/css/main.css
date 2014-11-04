@@ -1,0 +1,42 @@
+html, body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#firstPage {
+  width: 100%;
+  height: 100%;
+  background: black url(https://pbs.twimg.com/profile_images/2018271672/fisi.png) no-repeat center;
+}
+
+#aboutHeader {
+  padding: 40px 0px 30px 0px;
+}
+
+.aboutContent {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.aboutGlyph {
+  text-align: center;
+  font-size: 7em;
+  margin-bottom: 20px;
+}
+
+#video {
+  display: block;
+  margin: 0px auto 45px auto;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  margin-top: 80px;
+  padding: 80px 0px 10px 0px;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
